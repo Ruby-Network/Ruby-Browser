@@ -1,7 +1,7 @@
 {
-  "name": "Ultraviolet App",
-  "description": "Node.js Ultraviolet instance",
-  "repository": "https://github.com/titaniumnetwork-development/ultraviolet-node",
+  "name": "Natant Browser",
+  "description": "Natant Browser instance",
+  "repository": "https://github.com/natant-network/natant-browser",
   "logo": "https://raw.githubusercontent.com/titaniumnetwork-development/Ultraviolet-Static/main/public/uv.png",
-  "keywords": ["tomp", "ultraviolet"]
+  "keywords": ["tomp", "natant"]
 }

@@ -1,9 +1,10 @@
 import createBareServer from "@tomphttp/bare-server-node";
 import express from "express";
 import { createServer } from "node:http";
-import { publicPath } from "ultraviolet-static";
+import { publicPath } from "natant-browser-static";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { join } from "node:path";
+import portc from '../config.json' assert {type: 'json'};
 
 const bare = createBareServer("/bare/");
 const app = express();
