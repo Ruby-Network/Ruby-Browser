@@ -4,5 +4,5 @@ services:
     restart: unless-stopped
     image: "motortruck1221/natant-browser"
     ports:
-    #IMPORTANT: DO NOT CHANGE THE 6969 PART ONLY CHANGE THE <your port here> PART REMOVING THE <> AROUND IT
+    #IMPORTANT: DO NOT CHANGE THE 8080 PART ONLY CHANGE THE <your port here> PART REMOVING THE <> AROUND IT
       - <your port here>:8080
