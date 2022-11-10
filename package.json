@@ -19,7 +19,7 @@
     "@titaniumnetwork-dev/ultraviolet": "^1.0.3",
     "@tomphttp/bare-server-node": "^1.0.4-deps1",
     "express": "^4.18.2",
-    "natant-browser-static": "file:../natant-browser-static"
+    "natant-browser-static": "github:natant-network/natant-browser-static"
   },
   "devDependencies": {
     "eslint": "^8.23.1",
