@@ -1,6 +1,6 @@
 version: "2"
 services:
-  airea:
+  natant-browser:
     restart: unless-stopped
     image: "motortruck1221/natant-browser"
     ports:
