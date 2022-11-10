@@ -4,7 +4,9 @@ import { createServer } from "node:http";
 import { publicPath } from "natant-browser-static";
 import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import { join } from "node:path";
-import portc from '../config.json' assert {type: 'json'};
+// Import dotenv
+import dotenv from "dotenv";
+dotenv.config();
 
 const bare = createBareServer("/bare/");
 const app = express();
@@ -39,7 +41,7 @@ server.on("upgrade", (req, socket, head) => {
   }
 });
 
-let port = parseInt(process.env.PORT || "");
+let port = parseInt(process.env.PORT);
 
 if (isNaN(port)) port = 8080;
 
