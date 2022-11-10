@@ -1,9 +1,7 @@
-FROM node:current-slim
-
-WORKDIR /app
-
-COPY ./package.json ./package-lock.json ./src/ ./
-
-RUN npm install --omit=dev
-
-ENTRYPOINT npm start
+FROM node:alpine
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 8080
+CMD [ "npm", "start" ]
