@@ -36,7 +36,7 @@ $ npm start
 ```bash
 $ curl -o docker-compose.yml https://raw.githubusercontent.com/Natant-Network/Natant-Browser/main/docker-compose.yml
 ```
-- Chnage the port in the docker-compose.yml file to your liking
+- Change the port in the docker-compose.yml file to your liking
 ```bash
 $ nano docker-compose.yml
 ```
