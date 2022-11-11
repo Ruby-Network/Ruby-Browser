@@ -44,3 +44,13 @@ $ nano docker-compose.yml
 ```bash
 $ docker-compose up -d
 ```
+
+#### Credits:
+
+- Massive credit to [**@r58playz**](https://github.com/r58playz) this project uses some of the scripts from his aboutbrowser project.
+
+- [Chrome Tabs](https://github.com/adamschwartz/chrome-tabs) by [Adam Schwartz](https://github.com/adamschwartz)
+
+- [Ultraviolet](https://github.com/titaniumnetwork-dev/ultraviolet-node) by [Titanium Network](https://github.com/titaniumnetwork-dev)
+ 
+ - [Dynamic Interception Proxy (DIP)](https://github.com/Dynamic-Interception-Proxy)
