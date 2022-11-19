@@ -45,6 +45,10 @@ $ nano docker-compose.yml
 $ docker-compose up -d
 ```
 
+Picture of the browser:
+
+![image](https://user-images.githubusercontent.com/73721704/202841327-44125322-9f6a-4bed-b1d7-3511068fefbb.png)
+
 #### Credits:
 
 - Massive credit to [**@r58playz**](https://github.com/r58playz) this project uses some of the scripts from his aboutbrowser project.
