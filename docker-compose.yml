@@ -6,3 +6,8 @@ services:
     ports:
     #IMPORTANT: DO NOT CHANGE THE 8080 PART ONLY CHANGE THE <your port here> PART REMOVING THE <> AROUND IT
       - <your port here>:8080
+# network config if youi want a network config feel free to use the one below and change the name to your liking. YOU MUST RUN docker network create <your name> BEFORE RUNNING THE CONTAINER
+#networks:
+#  default:
+#    external:
+#      name: default
