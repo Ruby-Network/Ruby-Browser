@@ -21,7 +21,7 @@
     "dotenv": "^16.0.3",
     "env": "^0.0.2",
     "express": "^4.18.2",
-    "ruby-browser-static": "github:ruby-network/ruby-browser-static"
+    "ruby-browser-static": "github:Ruby-Network/ruby-browser-static"
   },
   "devDependencies": {
     "eslint": "^8.23.1",
